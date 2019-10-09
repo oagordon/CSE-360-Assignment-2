@@ -56,7 +56,10 @@ public class AddingMachine {
 		return history;
 	}
 
+	/**
+	 * Resets the value of 'total'
+	 */
 	public void clear() {
-	
+		total = 0;
 	}
 }
